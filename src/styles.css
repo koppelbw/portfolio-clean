@@ -44,6 +44,17 @@ img {
   max-width: 100%;
 }
 
+/* ---------- site-wide film grain ---------- */
+
+.grain {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 2000;
+}
+
 /* ---------- primitives ---------- */
 
 .container {

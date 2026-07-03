@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { HashRouter, Routes, Route, useLocation } from 'react-router-dom'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
+import Grain from './components/Grain'
 import Home from './pages/Home'
 import Career from './pages/Career'
 import Projects from './pages/Projects'
@@ -36,6 +37,7 @@ export default function App() {
   return (
     <HashRouter>
       <ScrollToTop />
+      <Grain />
       <Nav />
       <Pages />
       <Footer />
