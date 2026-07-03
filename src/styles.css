@@ -1,9 +1,9 @@
 :root {
   --bg: #fffdf1;
-  --ink: #e56a44;
-  --muted: #d08a68;
-  --line: rgba(229, 106, 68, 0.32);
-  --accent: #c93d0e;
+  --ink: #3b2a20;
+  --muted: #8d7a6c;
+  --line: rgba(59, 42, 32, 0.18);
+  --accent: #e56a44;
   --font-display: 'Space Grotesk', system-ui, sans-serif;
   --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
   --pad: clamp(1.25rem, 4vw, 4rem);
