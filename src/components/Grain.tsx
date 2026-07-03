@@ -80,8 +80,7 @@ export default function Grain() {
     }
 
     setup()
-    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    if (!reduced) raf = requestAnimationFrame(frame)
+    raf = requestAnimationFrame(frame)
     window.addEventListener('resize', onResize)
 
     return () => {

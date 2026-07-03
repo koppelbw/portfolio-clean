@@ -302,44 +302,6 @@ img {
   }
 }
 
-/* ---------- marquee ---------- */
-
-.marquee {
-  overflow: hidden;
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-  padding: 1.1rem 0;
-  white-space: nowrap;
-}
-
-.marquee-track {
-  display: inline-flex;
-  gap: 3rem;
-  padding-right: 3rem;
-  animation: marquee 28s linear infinite;
-  will-change: transform;
-}
-
-.marquee-track span {
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: -0.02em;
-  font-size: clamp(1.1rem, 2.2vw, 1.7rem);
-}
-
-.marquee-track .dot {
-  color: var(--accent);
-}
-
-@keyframes marquee {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
-}
-
 /* ---------- list rows (career / projects index) ---------- */
 
 .rows {
@@ -353,7 +315,7 @@ img {
 .row-head {
   width: 100%;
   display: grid;
-  grid-template-columns: 3.5rem minmax(0, 1.4fr) minmax(0, 1fr) auto;
+  grid-template-columns: 3.5rem minmax(0, 1.4fr) minmax(0, 1fr) 7rem;
   align-items: baseline;
   gap: 1.25rem;
   padding: 1.4rem 0.75rem;
@@ -405,6 +367,7 @@ img {
   font-family: var(--font-mono);
   font-size: 0.78rem;
   white-space: nowrap;
+  text-align: right;
 }
 
 .row-body {
@@ -445,7 +408,7 @@ img {
 
 @media (max-width: 860px) {
   .row-head {
-    grid-template-columns: 2.25rem minmax(0, 1fr) auto;
+    grid-template-columns: 2.25rem minmax(0, 1fr) 5.5rem;
   }
   .row-head .row-role {
     display: none;

@@ -10,13 +10,10 @@ export function getLenis() {
 
 /**
  * Inertial scroll via Lenis: wheel/touch input is eased so the page keeps
- * gliding with momentum after input stops. Disabled under
- * prefers-reduced-motion.
+ * gliding with momentum after input stops.
  */
 export default function SmoothScroll() {
   useEffect(() => {
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
-
     lenis = new Lenis({
       lerp: 0.09,
       wheelMultiplier: 1,

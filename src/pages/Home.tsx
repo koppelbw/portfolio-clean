@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import Marquee from '../components/Marquee'
 import Reveal from '../components/Reveal'
 
 const highlights = [
@@ -63,8 +62,6 @@ export default function Home() {
           </Reveal>
         </div>
       </section>
-
-      <Marquee />
 
       <section className="section container">
         <Reveal>
