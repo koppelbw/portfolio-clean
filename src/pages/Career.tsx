@@ -10,7 +10,7 @@ export default function Career() {
       <Reveal>
         <div className="section-head">
           <div className="label">
-            <span className="idx">01</span>Career
+            <span className="idx">02</span>Career
           </div>
           <h1 className="display">Ten Years of Shipping</h1>
           <p style={{ maxWidth: '44em' }}>

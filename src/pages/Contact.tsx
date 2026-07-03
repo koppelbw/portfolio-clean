@@ -6,7 +6,7 @@ export default function Contact() {
     <section className="contact-hero container">
       <Reveal>
         <div className="label">
-          <span className="idx">04</span>Contact
+          <span className="idx">05</span>Contact
         </div>
       </Reveal>
       <Reveal delay={120}>

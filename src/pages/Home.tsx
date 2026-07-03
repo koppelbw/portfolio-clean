@@ -69,9 +69,7 @@ export default function Home() {
       <section className="section container">
         <Reveal>
           <div className="section-head">
-            <div className="label">
-              <span className="idx">02</span>Selected Highlights
-            </div>
+            <div className="label">Selected Highlights</div>
           </div>
         </Reveal>
         <div className="cards">
@@ -90,9 +88,7 @@ export default function Home() {
       <section className="section container">
         <Reveal>
           <div className="section-head">
-            <div className="label">
-              <span className="idx">03</span>What I Do
-            </div>
+            <div className="label">What I Do</div>
           </div>
         </Reveal>
         <div className="rows">

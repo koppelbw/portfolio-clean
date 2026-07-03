@@ -43,7 +43,7 @@ export default function About() {
       <Reveal>
         <div className="section-head">
           <div className="label">
-            <span className="idx">03</span>About Me
+            <span className="idx">04</span>About Me
           </div>
           <h1 className="display">Beyond the Editor</h1>
         </div>

@@ -7,7 +7,7 @@ export default function Projects() {
       <Reveal>
         <div className="section-head">
           <div className="label">
-            <span className="idx">02</span>Projects
+            <span className="idx">03</span>Projects
           </div>
           <h1 className="display">Personal Builds</h1>
           <p style={{ maxWidth: '44em' }}>
