@@ -39,40 +39,52 @@ const blocks = [
 
 export default function About() {
   return (
-    <section className="section container">
-      <Reveal>
-        <div className="section-head">
-          <div className="label">
-            <span className="idx">03</span>About Me
-          </div>
-          <h1 className="display">Beyond the Editor</h1>
-        </div>
-      </Reveal>
-
-      <div>
-        {blocks.map((b) => (
-          <Reveal key={b.title}>
-            <div className="about-block">
-              <div>
-                <div className="label">{b.label}</div>
-                <h3>{b.title}</h3>
-              </div>
-              <div className="about-copy">
-                {b.paras.map((p) => (
-                  <p key={p}>{p}</p>
-                ))}
-                {b.photos.length > 0 && (
-                  <div className="about-photos">
-                    {b.photos.map((ph) => (
-                      <Photo key={ph.src} {...ph} />
-                    ))}
-                  </div>
-                )}
-              </div>
+    <>
+      <section className="about-hero">
+        <div className="container">
+          <Reveal>
+            <div className="label">
+              <span className="idx">03</span>About Me
             </div>
           </Reveal>
-        ))}
-      </div>
-    </section>
+          <Reveal delay={100}>
+            <h1 className="display">Beyond the Editor</h1>
+          </Reveal>
+          <Reveal delay={200}>
+            <p className="about-hero-intro">
+              What I chase when I'm not shipping software — the rink, the ranked ladder, and
+              centuries-old craftsmanship. The same instincts that make the code worth caring about.
+            </p>
+          </Reveal>
+        </div>
+      </section>
+
+      <section className="section container">
+        <div>
+          {blocks.map((b) => (
+            <Reveal key={b.title}>
+              <div className="about-block">
+                <div>
+                  <div className="label">{b.label}</div>
+                  <h3>{b.title}</h3>
+                </div>
+                <div className="about-copy">
+                  {b.paras.map((p) => (
+                    <p key={p}>{p}</p>
+                  ))}
+                  {b.photos.length > 0 && (
+                    <div className="about-photos">
+                      {b.photos.map((ph) => (
+                        <Photo key={ph.src} {...ph} />
+                      ))}
+                    </div>
+                  )}
+                </div>
+              </div>
+            </Reveal>
+          ))}
+        </div>
+      </section>
+    </>
   )
 }

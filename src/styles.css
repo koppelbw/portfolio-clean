@@ -550,6 +550,70 @@ img {
   color: var(--accent);
 }
 
+/* ---------- about hero band (procedural concrete/plaster) ---------- */
+
+.about-hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  color: #f4f2ec;
+  padding: clamp(5rem, 13vw, 9.5rem) 0;
+  margin-bottom: clamp(2.5rem, 6vw, 5rem);
+  background-color: #7f8186;
+  background-image:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0) 34%),
+    linear-gradient(305deg, rgba(0, 0, 0, 0.24) 0%, rgba(0, 0, 0, 0) 42%),
+    linear-gradient(115deg, #96979c 0%, #7c7e83 38%, #8c8e93 56%, #6e7075 100%);
+}
+
+/* fine stone grain, blended over the tonal planes */
+.about-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='220'%20height='220'%3E%3Cfilter%20id='n'%3E%3CfeTurbulence%20type='fractalNoise'%20baseFrequency='0.85'%20numOctaves='2'%20stitchTiles='stitch'/%3E%3CfeColorMatrix%20type='saturate'%20values='0'/%3E%3C/filter%3E%3Crect%20width='100%25'%20height='100%25'%20filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 220px 220px;
+  opacity: 0.55;
+  mix-blend-mode: overlay;
+  pointer-events: none;
+}
+
+/* side vignette keeps light text legible over the texture */
+.about-hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(18, 18, 20, 0.5) 0%,
+    rgba(18, 18, 20, 0.12) 45%,
+    rgba(18, 18, 20, 0.42) 100%
+  );
+  pointer-events: none;
+}
+
+.about-hero > .container {
+  position: relative;
+  z-index: 1;
+}
+
+.about-hero h1 {
+  font-size: clamp(2.75rem, 8vw, 6.5rem);
+  margin-top: 1.25rem;
+}
+
+.about-hero .label {
+  color: rgba(244, 242, 236, 0.72);
+}
+
+.about-hero-intro {
+  max-width: 34em;
+  margin-top: 1.75rem;
+  font-size: clamp(1.05rem, 1.6vw, 1.3rem);
+  line-height: 1.55;
+  color: rgba(244, 242, 236, 0.92);
+}
+
 /* ---------- about ---------- */
 
 .about-block {
