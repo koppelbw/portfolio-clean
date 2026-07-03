@@ -1,9 +1,9 @@
 :root {
-  --bg: #f1efe9;
-  --ink: #17160f;
-  --muted: #757165;
-  --line: rgba(23, 22, 15, 0.16);
-  --accent: #e0491d;
+  --bg: #fffdf1;
+  --ink: #e56a44;
+  --muted: #d08a68;
+  --line: rgba(229, 106, 68, 0.32);
+  --accent: #c93d0e;
   --font-display: 'Space Grotesk', system-ui, sans-serif;
   --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
   --pad: clamp(1.25rem, 4vw, 4rem);
@@ -15,8 +15,18 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
+/* lenis smooth scroll */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
 }
 
 body {

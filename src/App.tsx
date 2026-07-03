@@ -3,6 +3,7 @@ import { HashRouter, Routes, Route, useLocation } from 'react-router-dom'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
 import Grain from './components/Grain'
+import SmoothScroll, { getLenis } from './components/SmoothScroll'
 import Home from './pages/Home'
 import Career from './pages/Career'
 import Projects from './pages/Projects'
@@ -12,7 +13,9 @@ import Contact from './pages/Contact'
 function ScrollToTop() {
   const { pathname } = useLocation()
   useEffect(() => {
-    window.scrollTo(0, 0)
+    const lenis = getLenis()
+    if (lenis) lenis.scrollTo(0, { immediate: true })
+    else window.scrollTo(0, 0)
   }, [pathname])
   return null
 }
@@ -36,6 +39,7 @@ function Pages() {
 export default function App() {
   return (
     <HashRouter>
+      <SmoothScroll />
       <ScrollToTop />
       <Grain />
       <Nav />

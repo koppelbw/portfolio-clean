@@ -51,6 +51,12 @@ export default function Grain() {
       interval = desktop ? 10 : 40
       imageData = bufCtx.createImageData(Math.max(buffer.width, 1), Math.max(buffer.height, 1))
       data = imageData.data
+      // warm sepia speckles instead of black
+      for (let i = 0; i < data.length; i += 4) {
+        data[i] = 138
+        data[i + 1] = 66
+        data[i + 2] = 33
+      }
       // seed several passes so grain is present immediately
       for (let i = 0; i < 30; i++) speckle()
       draw()
