@@ -11,8 +11,7 @@ export default function Projects() {
           </div>
           <h1 className="display">Personal Builds</h1>
           <p style={{ maxWidth: '44em' }}>
-            Side projects where I explore architecture, tooling, and ideas end-to-end — from the
-            database schema to the pixels.
+            Side projects where I explore architecture, tooling, and ideas end-to-end.
           </p>
         </div>
       </Reveal>
@@ -37,9 +36,16 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
-                <a className="arrow-link" href={p.link} target="_blank" rel="noreferrer">
-                  {p.linkLabel} ↗
-                </a>
+                <div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap' }}>
+                  {p.liveLink && (
+                    <a className="arrow-link" href={p.liveLink} target="_blank" rel="noreferrer">
+                      {p.liveLabel} ↗
+                    </a>
+                  )}
+                  <a className="arrow-link" href={p.link} target="_blank" rel="noreferrer">
+                    {p.linkLabel} ↗
+                  </a>
+                </div>
               </div>
             </article>
           </Reveal>

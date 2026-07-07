@@ -6,8 +6,8 @@ const blocks = [
     label: 'On the ice',
     title: 'Hockey',
     paras: [
-      'Hockey has been a constant my whole life. These days that means beer-league nights across metro Detroit — and the occasional championship, trophy filled with Blue Light cans included.',
-      'Pilgrimages matter too: standing next to the Stanley Cup in the Great Hall at the Hockey Hall of Fame is about as close to a religious experience as the sport allows.',
+      'I have been a big hockey fan my entire life — growing up in the Detroit area, my family are big Red Wings fans.',
+      'I only began playing ice hockey about five years ago, as an adult. It was intimidating at first and a large commitment, but after taking the leap I couldn’t be happier with my decision to start playing.',
     ],
     photos: [
       { src: '/photos/hockey-team.jpg', alt: 'League championship team photo', caption: 'League champs' },
@@ -18,16 +18,18 @@ const blocks = [
     label: 'On the pitch (virtually)',
     title: 'Rocket League',
     paras: [
-      'When the rink is closed, the hockey instinct moves to Rocket League — rocket-powered cars, aerial touches, and the eternal chase for one more rank up. It scratches the same itch: fast decisions, teamwork, and mechanics you can grind forever.',
+      'When the rink is closed, I’m playing car-soccer. Whether it’s playing with friends all Saturday night or competing against the professionals for money, it’s always a great time.',
     ],
-    photos: [],
+    photos: [
+      { src: '/photos/rocket-league.jpg', alt: 'Rocket League cars flying through clouds toward the ball', caption: 'Car-soccer' },
+    ],
   },
   {
     label: 'Off the clock',
     title: 'Art',
     paras: [
-      'I gravitate toward craftsmanship at scale — Gothic stained glass like Sainte-Chapelle in Paris, where thirteenth-century engineers solved light itself, and museum textile work where every stitch is deliberate.',
-      'It is the same thing I chase in software: structure, detail, and the feeling that someone cared about every layer.',
+      'Anywhere I travel, you will find me at the museums.',
+      'When I see a marble sculpture I always think of my previous boss and friend Peter, who would often tell us: “Building software is like building a sculpture. You chisel away a rough outline, then refine and repeat.”',
     ],
     photos: [
       { src: '/photos/art-chapel.jpg', alt: 'Stained glass windows of Sainte-Chapelle', caption: 'Sainte-Chapelle, Paris' },

@@ -38,24 +38,21 @@ export default function Home() {
         </Reveal>
         <Reveal delay={120}>
           <h1 className="hero-statement display">
-            Software, <span className="accent-text">engineered</span>
-            <br />
-            to ship.
+            Software, <span className="accent-text">end to end</span>.
           </h1>
         </Reveal>
         <div className="hero-grid">
           <Reveal delay={300}>
             <p className="hero-intro">
-              I’m a software engineer who ships — architecture to pixels, backends to 3D frontends.
-              A decade of delivering multi-million-dollar, high-stakes software for Fortune 500
-              clients, with the range to pick up whatever stack the problem needs.
+              I take software the whole way — architecture, backends, UIs, cloud, and the pipelines
+              that ship it. Eleven years of delivering multi-million-dollar, high-stakes systems
+              for Fortune 500 clients, and side projects that run from 3D frontends to AI agents.
             </p>
           </Reveal>
           <Reveal delay={420}>
             <div className="hero-meta">
               <span className="label">Software Engineer</span>
-              <span className="label">Launch, by NTT DATA</span>
-              <span className="label">2015 — Present</span>
+              <span className="label">11 Years of Experience</span>
               <span className="label">B.S. Computer Science, GVSU</span>
             </div>
           </Reveal>

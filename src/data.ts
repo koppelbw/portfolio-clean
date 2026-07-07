@@ -11,7 +11,7 @@ export const careerIntro = {
   company: 'Launch, by NTT DATA',
   years: '2015 — Present',
   blurb:
-    'Launch, a division within NTT DATA, specializes in digital innovation, design, and engineering — helping Fortune 500 companies strategize, design, and ship digital products. My time with Launch has primarily been focused in the Healthcare sector, delivering high-quality software across the projects below.',
+    'Launch, a division within NTT DATA, specializes in digital innovation, design, and engineering, helping Fortune 500 companies strategize, design, and ship digital products. My time with Launch has primarily been focused in the Healthcare sector, delivering high-quality software across the projects below.',
 }
 
 export const career: CareerEntry[] = [
@@ -108,6 +108,8 @@ export interface Project {
   stack: string[]
   link: string
   linkLabel: string
+  liveLink?: string
+  liveLabel?: string
 }
 
 export const projects: Project[] = [
@@ -124,10 +126,12 @@ export const projects: Project[] = [
     name: 'Habitat — Houseview UI',
     tagline: '3D isometric dollhouse frontend',
     description:
-      'A Sims-style isometric 3D frontend for the ItemCatalogue API. Every location renders as a building in a neighbourhood; the active one unfolds into a dollhouse with rooms, doors, stairs, and containers modeled at real-inch scale. Full CRUD over the Location → Floor → Room → Container → Item model with animated camera work.',
+      'A Sims-style isometric 3D frontend for the ItemCatalogue API. Every location renders as a building in a neighbourhood; the active one unfolds into a dollhouse with rooms, doors, stairs, and containers modeled at real-inch scale. Includes a Claude-powered AI assistant that answers questions about your inventory and deep-links into the 3D scene, plus asynchronous bulk CSV import built on Azure Storage Queues and Functions.',
     stack: ['React', 'TypeScript', 'react-three-fiber', 'GSAP', 'TanStack Query', 'Zod', 'Vite'],
     link: 'https://github.com/koppelbw/ItemCatalogue',
     linkLabel: 'github.com/koppelbw/ItemCatalogue',
+    liveLink: 'https://purple-tree-02473b20f.7.azurestaticapps.net/',
+    liveLabel: 'View it live',
   },
   {
     name: 'azure-devops-k8-terraform',
