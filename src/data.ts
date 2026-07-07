@@ -120,7 +120,9 @@ export const projects: Project[] = [
       'A home-inventory platform built as an ASP.NET Core 10 Web API with a five-project Clean/Hexagonal Architecture (Domain, Application, Persistence, Infrastructure, API). EF Core over SQL Server with an SSDT database project and schema-drift gates, Azure Blob picture storage, OpenTelemetry observability, ~400 xUnit tests with Testcontainers, and GitHub Actions CI/CD deploying to Azure.',
     stack: ['C#', 'ASP.NET Core 10', 'EF Core', 'SQL Server', 'Azure', 'xUnit', 'Docker', 'GitHub Actions'],
     link: 'https://github.com/koppelbw/ItemCatalogue',
-    linkLabel: 'github.com/koppelbw/ItemCatalogue',
+    linkLabel: 'View Source',
+    liveLink: 'https://purple-tree-02473b20f.7.azurestaticapps.net/#/about',
+    liveLabel: 'About',
   },
   {
     name: 'Habitat — Houseview UI',
@@ -128,19 +130,21 @@ export const projects: Project[] = [
     description:
       'A Sims-style isometric 3D frontend for the ItemCatalogue API. Every location renders as a building in a neighbourhood; the active one unfolds into a dollhouse with rooms, doors, stairs, and containers modeled at real-inch scale. Includes a Claude-powered AI assistant that answers questions about your inventory and deep-links into the 3D scene, plus asynchronous bulk CSV import built on Azure Storage Queues and Functions.',
     stack: ['React', 'TypeScript', 'react-three-fiber', 'GSAP', 'TanStack Query', 'Zod', 'Vite'],
-    link: 'https://github.com/koppelbw/ItemCatalogue',
-    linkLabel: 'github.com/koppelbw/ItemCatalogue',
+    link: 'https://github.com/koppelbw/ItemCatalogue/tree/master/houseview',
+    linkLabel: 'View Source',
     liveLink: 'https://purple-tree-02473b20f.7.azurestaticapps.net/',
-    liveLabel: 'View it live',
+    liveLabel: 'View It Live',
   },
   {
-    name: 'azure-devops-k8-terraform',
-    tagline: 'Infrastructure as Code pipeline',
+    name: 'WK-TV — Portfolio',
+    tagline: 'Retro CRT-television portfolio',
     description:
-      'End-to-end Infrastructure as Code: Terraform provisioning Azure Kubernetes Service and supporting resources, wired into Azure DevOps pipelines for repeatable, reviewable environment builds and deployments.',
-    stack: ['Terraform', 'Kubernetes', 'Azure', 'Azure DevOps', 'CI/CD'],
-    link: 'https://github.com/koppelbw/azure-devops-k8-terraform',
-    linkLabel: 'github.com/koppelbw/azure-devops-k8-terraform',
+      'An alternate take on the personal portfolio: a retro CRT television you channel-surf. Sections are TV channels — complete with static, scanlines, and dial interactions — built as a single-page React app and deployed to Azure Static Web Apps with GitHub-linked CI/CD.',
+    stack: ['React 19', 'TypeScript', 'Vite', 'CSS', 'Azure Static Web Apps', 'GitHub Actions'],
+    link: 'https://github.com/koppelbw/portfolio-tv',
+    linkLabel: 'View Source',
+    liveLink: 'https://ashy-cliff-0a111680f.7.azurestaticapps.net/',
+    liveLabel: 'View It Live',
   },
 ]
 
