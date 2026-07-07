@@ -33,17 +33,16 @@ export default function Home() {
       <section className="hero container">
         <Reveal>
           <div className="label">
-            <span className="idx">01</span>Enterprise Application Engineer — Utica, MI
+            <span className="idx">01</span>William Koppelberger — Utica, MI
           </div>
         </Reveal>
-        <h1 className="hero-name display">
-          <Reveal delay={100}>
-            <span>William</span>
-          </Reveal>
-          <Reveal delay={220}>
-            <span className="outline">Koppelberger</span>
-          </Reveal>
-        </h1>
+        <Reveal delay={120}>
+          <h1 className="hero-statement display">
+            Enterprise software,
+            <br />
+            <span className="accent-text">engineered</span> to ship.
+          </h1>
+        </Reveal>
         <div className="hero-grid">
           <Reveal delay={300}>
             <p className="hero-intro">
@@ -55,6 +54,7 @@ export default function Home() {
           </Reveal>
           <Reveal delay={420}>
             <div className="hero-meta">
+              <span className="label">Enterprise Application Engineer</span>
               <span className="label">Launch, by NTT DATA</span>
               <span className="label">2015 — Present</span>
               <span className="label">B.S. Computer Science, GVSU</span>

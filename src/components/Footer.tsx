@@ -13,7 +13,9 @@ export default function Footer() {
           </a>
           <a href={`mailto:${links.email}`}>{links.email}</a>
         </div>
-        <div className="footer-name display">William Koppelberger</div>
+        <a className="footer-cta" href={`mailto:${links.email}`}>
+          Let’s build something <span className="accent-text">→</span>
+        </a>
         <div className="footer-base">
           <span className="label">© 2026 William Koppelberger</span>
           <span className="label">Utica, MI — Enterprise Application Engineer</span>
