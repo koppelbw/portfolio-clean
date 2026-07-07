@@ -44,9 +44,10 @@ export default function Home() {
         <div className="hero-grid">
           <Reveal delay={300}>
             <p className="hero-intro">
-              I take software the whole way — architecture, backends, UIs, cloud, and the pipelines
-              that ship it. Eleven years of delivering multi-million-dollar, high-stakes systems
-              for Fortune 500 clients, and side projects that run from 3D frontends to AI agents.
+              I take software the whole way; architecture, backend, frontend, cloud, and the
+              pipeline that ships it. I bring a balance of hands-on technical depth, architectural
+              thinking, AI-driven SDLC enhancements, and people-centered leadership that
+              consistently drives quality for businesses.
             </p>
           </Reveal>
           <Reveal delay={420}>

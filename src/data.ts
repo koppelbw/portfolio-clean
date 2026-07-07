@@ -139,7 +139,7 @@ export const projects: Project[] = [
     name: 'WK-TV — Portfolio',
     tagline: 'Retro CRT-television portfolio',
     description:
-      'An alternate take on the personal portfolio: a retro CRT television you channel-surf. Sections are TV channels — complete with static, scanlines, and dial interactions — built as a single-page React app and deployed to Azure Static Web Apps with GitHub-linked CI/CD.',
+      'An alternative fun take on my personal portfolio: a retro CRT television you channel-surf where the sections are TV channels. Built as a single-page React app and deployed to Azure Static Web Apps with GitHub-linked CI/CD.',
     stack: ['React 19', 'TypeScript', 'Vite', 'CSS', 'Azure Static Web Apps', 'GitHub Actions'],
     link: 'https://github.com/koppelbw/portfolio-tv',
     linkLabel: 'View Source',
