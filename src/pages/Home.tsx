@@ -21,7 +21,7 @@ const highlights = [
 
 const services = [
   'Software Architecture',
-  'Full-Stack .NET Engineering',
+  'Full-Stack Engineering',
   'Cloud, DevOps & IaC',
   'AI-Assisted Development',
   'Team Leadership & Mentoring',
@@ -38,23 +38,22 @@ export default function Home() {
         </Reveal>
         <Reveal delay={120}>
           <h1 className="hero-statement display">
-            Enterprise software,
+            Software, <span className="accent-text">engineered</span>
             <br />
-            <span className="accent-text">engineered</span> to ship.
+            to ship.
           </h1>
         </Reveal>
         <div className="hero-grid">
           <Reveal delay={300}>
             <p className="hero-intro">
-              I deliver multi-million-dollar projects and modern cloud-ready solutions. Hands-on
-              engineering, software architecture, and AI-assisted development workflows that
-              accelerate delivery and improve code quality — with a decade of shipping high-stakes
-              healthcare software for Fortune 500 clients.
+              I’m a software engineer who ships — architecture to pixels, backends to 3D frontends.
+              A decade of delivering multi-million-dollar, high-stakes software for Fortune 500
+              clients, with the range to pick up whatever stack the problem needs.
             </p>
           </Reveal>
           <Reveal delay={420}>
             <div className="hero-meta">
-              <span className="label">Enterprise Application Engineer</span>
+              <span className="label">Software Engineer</span>
               <span className="label">Launch, by NTT DATA</span>
               <span className="label">2015 — Present</span>
               <span className="label">B.S. Computer Science, GVSU</span>

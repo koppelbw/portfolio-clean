@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { links } from '../data'
 
 export default function Footer() {
@@ -13,12 +14,12 @@ export default function Footer() {
           </a>
           <a href={`mailto:${links.email}`}>{links.email}</a>
         </div>
-        <a className="footer-cta" href={`mailto:${links.email}`}>
+        <Link className="footer-cta" to="/contact">
           Let’s build something <span className="accent-text">→</span>
-        </a>
+        </Link>
         <div className="footer-base">
           <span className="label">© 2026 William Koppelberger</span>
-          <span className="label">Utica, MI — Enterprise Application Engineer</span>
+          <span className="label">Utica, MI — Software Engineer</span>
         </div>
       </div>
     </footer>

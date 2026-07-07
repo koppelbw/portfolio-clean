@@ -1,6 +1,6 @@
 # Portfolio — William Koppelberger
 
-Personal portfolio site for William Koppelberger, Enterprise Application Engineer.
+Personal portfolio site for William Koppelberger, software engineer.
 
 Built with **Vite + React 19 + TypeScript**, using `react-router-dom` (hash routing)
 for the page structure. Editorial-minimal design: large uppercase display type
