@@ -118,7 +118,7 @@ export const projects: Project[] = [
     tagline: 'Clean Architecture .NET Web API',
     description:
       'A home-inventory platform built as an ASP.NET Core 10 Web API with a five-project Clean/Hexagonal Architecture (Domain, Application, Persistence, Infrastructure, API). EF Core over SQL Server with an SSDT database project and schema-drift gates, Azure Blob picture storage, OpenTelemetry observability, ~400 xUnit tests with Testcontainers, and GitHub Actions CI/CD deploying to Azure.',
-    stack: ['C#', 'ASP.NET Core 10', 'EF Core', 'SQL Server', 'Azure', 'xUnit', 'Docker', 'GitHub Actions'],
+    stack: ['C#', 'ASP.NET Core 10', 'EF Core', 'SQL Server', 'Azure', 'xUnit', 'Docker', 'GitHub Actions', 'Agentic AI'],
     link: 'https://github.com/koppelbw/ItemCatalogue',
     linkLabel: 'View Source',
     liveLink: 'https://purple-tree-02473b20f.7.azurestaticapps.net/#/about',
@@ -129,7 +129,7 @@ export const projects: Project[] = [
     tagline: '3D isometric dollhouse frontend',
     description:
       'A Sims-style isometric 3D frontend for the ItemCatalogue API. Every location renders as a building in a neighbourhood; the active one unfolds into a dollhouse with rooms, doors, stairs, and containers modeled at real-inch scale. Includes a Claude-powered AI assistant that answers questions about your inventory and deep-links into the 3D scene, plus asynchronous bulk CSV import built on Azure Storage Queues and Functions.',
-    stack: ['React', 'TypeScript', 'react-three-fiber', 'GSAP', 'TanStack Query', 'Zod', 'Vite'],
+    stack: ['React', 'TypeScript', 'react-three-fiber', 'GSAP', 'TanStack Query', 'Zod', 'Vite', 'Agentic AI'],
     link: 'https://github.com/koppelbw/ItemCatalogue/tree/master/houseview',
     linkLabel: 'View Source',
     liveLink: 'https://purple-tree-02473b20f.7.azurestaticapps.net/',
@@ -140,7 +140,7 @@ export const projects: Project[] = [
     tagline: 'Retro CRT-television portfolio',
     description:
       'An alternative fun take on my personal portfolio: a retro CRT television you channel-surf where the sections are TV channels. Built as a single-page React app and deployed to Azure Static Web Apps with GitHub-linked CI/CD.',
-    stack: ['React 19', 'TypeScript', 'Vite', 'CSS', 'Azure Static Web Apps', 'GitHub Actions'],
+    stack: ['React 19', 'TypeScript', 'Vite', 'CSS', 'Azure Static Web Apps', 'GitHub Actions', 'Agentic AI'],
     link: 'https://github.com/koppelbw/portfolio-tv',
     linkLabel: 'View Source',
     liveLink: 'https://ashy-cliff-0a111680f.7.azurestaticapps.net/',
