@@ -121,7 +121,7 @@ export const projects: Project[] = [
     stack: ['C#', 'ASP.NET Core 10', 'EF Core', 'SQL Server', 'Azure', 'xUnit', 'Docker', 'GitHub Actions', 'Agentic AI'],
     link: 'https://github.com/koppelbw/ItemCatalogue',
     linkLabel: 'View Source',
-    liveLink: 'https://purple-tree-02473b20f.7.azurestaticapps.net/#/about',
+    liveLink: 'https://habitat.williamkoppelberger.dev/#/about',
     liveLabel: 'About',
   },
   {
@@ -132,7 +132,7 @@ export const projects: Project[] = [
     stack: ['React', 'TypeScript', 'react-three-fiber', 'GSAP', 'TanStack Query', 'Zod', 'Vite', 'Agentic AI'],
     link: 'https://github.com/koppelbw/ItemCatalogue/tree/master/houseview',
     linkLabel: 'View Source',
-    liveLink: 'https://purple-tree-02473b20f.7.azurestaticapps.net/',
+    liveLink: 'https://habitat.williamkoppelberger.dev',
     liveLabel: 'View It Live',
   },
   {
@@ -143,7 +143,7 @@ export const projects: Project[] = [
     stack: ['React 19', 'TypeScript', 'Vite', 'CSS', 'Azure Static Web Apps', 'GitHub Actions', 'Agentic AI'],
     link: 'https://github.com/koppelbw/portfolio-tv',
     linkLabel: 'View Source',
-    liveLink: 'https://ashy-cliff-0a111680f.7.azurestaticapps.net/',
+    liveLink: 'https://tv.williamkoppelberger.dev',
     liveLabel: 'View It Live',
   },
 ]
