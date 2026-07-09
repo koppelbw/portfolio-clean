@@ -11,7 +11,7 @@ export default function Projects() {
           </div>
           <h1 className="display">Personal Builds</h1>
           <p style={{ maxWidth: '44em' }}>
-            Side projects where I explore architecture, tooling, and ideas end-to-end.
+            Side projects where I explore architecture, tooling, and ideas.
           </p>
         </div>
       </Reveal>

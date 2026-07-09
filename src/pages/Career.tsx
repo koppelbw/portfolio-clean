@@ -12,7 +12,7 @@ export default function Career() {
           <div className="label">
             <span className="idx">02</span>Career
           </div>
-          <h1 className="display">Ten Years of Shipping</h1>
+          <h1 className="display">Eleven Years in Production</h1>
           <p style={{ maxWidth: '44em' }}>
             <strong>{careerIntro.company}</strong> · {careerIntro.years}
             <br />

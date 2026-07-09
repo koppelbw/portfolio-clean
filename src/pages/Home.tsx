@@ -44,7 +44,7 @@ export default function Home() {
         <div className="hero-grid">
           <Reveal delay={300}>
             <p className="hero-intro">
-              I take software the whole way; architecture, backend, frontend, cloud, and the
+              I see software the whole way through; architecture, backend, frontend, cloud, and the
               pipeline that ships it. I bring a balance of hands-on technical depth, architectural
               thinking, AI-driven SDLC enhancements, and people-centered leadership that
               consistently drives quality for businesses.
