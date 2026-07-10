@@ -5,17 +5,17 @@ const highlights = [
   {
     label: 'Award',
     title: '“Platform of the Year”',
-    text: 'Technical Lead of the CDRA/ROSI platform, awarded internally at the Launch, by NTT DATA Awards Celebration.',
+    text: 'Technical Lead of the award-winning CDRA/ROSI platform — after leading the team’s Blazor adoption from zero experience to full productivity in three months.',
   },
   {
     label: 'Delivery',
     title: 'High-Profile, High-Stakes',
-    text: 'Delivered a solution of critical importance and time sensitivity directly to top business leadership as the full-stack technical engineer.',
+    text: 'Built and shipped an executive-priority application and public API under a government-mandated deadline, frequently presented to top business leadership.',
   },
   {
     label: 'Leadership',
     title: 'Billions Modernized',
-    text: 'Mentor and Lead to a large Agile team that modernized a high-profile process handling billions of dollars each year.',
+    text: 'Lead a 12-engineer team on a platform processing billions annually — including a zero-downtime Azure migration and AI-assisted workflows that cut PR review times in half.',
   },
 ]
 

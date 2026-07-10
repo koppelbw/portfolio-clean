@@ -42,14 +42,15 @@ export default function Grain() {
     }
 
     const setup = () => {
-      canvas.width = window.innerWidth
-      canvas.height = window.innerHeight
+      // clamp to >=1: zero-sized canvases make drawImage throw
+      canvas.width = Math.max(window.innerWidth, 1)
+      canvas.height = Math.max(window.innerHeight, 1)
       buffer.width = canvas.width
       buffer.height = canvas.height
       const desktop = window.innerWidth >= 1024
       intensity = desktop ? 0.1 : 0.07
       interval = desktop ? 10 : 40
-      imageData = bufCtx.createImageData(Math.max(buffer.width, 1), Math.max(buffer.height, 1))
+      imageData = bufCtx.createImageData(buffer.width, buffer.height)
       data = imageData.data
       // warm sepia speckles instead of black
       for (let i = 0; i < data.length; i += 4) {

@@ -11,7 +11,7 @@ export const careerIntro = {
   company: 'Launch, by NTT DATA',
   years: '2015 — Present',
   blurb:
-    'Launch, a division within NTT DATA, specializes in digital innovation, design, and engineering, helping Fortune 500 companies strategize, design, and ship digital products. My time with Launch has primarily been focused in the Healthcare sector, delivering high-quality software across the projects below.',
+    'Launch, a division within NTT DATA, is a digital engineering consultancy delivering products for Fortune 500 clients. I have been embedded long-term with HCA Healthcare, one of the largest U.S. health systems, across six major platform engagements.',
 }
 
 export const career: CareerEntry[] = [
@@ -19,27 +19,26 @@ export const career: CareerEntry[] = [
     client: 'HCA Healthcare',
     project: 'Dispute Resolution Workflow',
     role: 'Digital Engineering Supervisor',
-    years: '2023 — 2026',
-    stack: ['.NET 9', 'MVC', 'EF Core', 'SQL', 'GitHub', 'Azure', 'CI/CD', 'IaC', 'Copilot'],
+    years: '2023 — Present',
+    stack: ['.NET 9', 'ASP.NET MVC', 'EF Core', 'SQL Server', 'Azure', 'GitHub', 'Terraform', 'GitHub Copilot'],
     bullets: [
-      'Mentor and Lead to a large Agile team of 12 engineers',
-      'Responsible for code quality and performance oversight',
-      'Led major refactoring and code structure improvements',
-      'Managed migration from on-prem to cloud hosting and resources',
-      'AI-driven engineering environment',
-      'Modernized a high-profile process handling billions of dollars each year',
+      'Lead and mentor a 12-engineer Agile team modernizing a dispute-resolution platform that processes billions of dollars in healthcare claims annually',
+      'Directed the platform’s migration from on-prem hosting to Azure using Terraform IaC and automated CI/CD pipelines, delivering zero downtime to production end users',
+      'Led a major refactoring and code-structure overhaul that increased unit test coverage by 20%',
+      'Drove team-wide adoption of GitHub Copilot and AI-assisted code review, reducing average PR review times by 50%',
+      'Remain hands-on: guided and implemented a batch-processing subsystem handling hundreds of thousands of data entries per day in .NET 9 and EF Core',
     ],
   },
   {
     client: 'HCA Healthcare',
-    project: 'No Surprise Act',
+    project: 'No Surprises Act Compliance',
     role: 'Digital Engineering Team Lead',
     years: '2023',
-    stack: ['.NET 5', 'MVC', 'EF Core', 'SQL', 'GitHub'],
+    stack: ['.NET 5', 'ASP.NET MVC', 'EF Core', 'SQL Server', 'GitHub'],
     bullets: [
-      'Technical Lead to an Agile team of 5–8 engineers',
-      'CI/CD and on-prem hosting oversight',
-      'Expanded an existing .NET application on an accelerated timeline',
+      'Technical lead for a team of 5–8 engineers delivering federally mandated No Surprises Act functionality on an accelerated 6-month timeline; shipped on schedule',
+      'Designed and led the expansion of the existing .NET application, personally implementing the bulk-import process',
+      'Owned CI/CD pipelines and on-prem hosting, maintaining a monthly UAT release cadence throughout the compressed delivery window',
     ],
   },
   {
@@ -47,13 +46,12 @@ export const career: CareerEntry[] = [
     project: 'CDRA / ROSI',
     role: 'Sr. Software Developer II',
     years: '2021 — 2023',
-    stack: ['.NET 6', 'Blazor', 'EF Core', 'SQL', 'GitHub', 'Azure'],
+    stack: ['.NET 6', 'Blazor', 'EF Core', 'SQL Server', 'Azure', 'GitHub'],
     bullets: [
-      '“Platform of the Year” — Launch, by NTT DATA, Awards Celebration',
-      'Mentored, then became Lead of, the Agile team',
-      'Took on the large task of learning a new technology: Blazor',
-      'Implemented Domain-Centric Architecture and CQRS via MediatR',
-      'Azure cloud hosting oversight',
+      'Technical lead of the platform awarded “Platform of the Year” at Launch, by NTT DATA’s annual awards',
+      'Led the team’s adoption of Blazor from zero prior experience, ramping 6–8 engineers to full productivity in 3 months',
+      'Architected the platform using domain-centric architecture and CQRS via MediatR, improving testability and separation of concerns',
+      'Promoted from senior contributor to team lead mid-engagement; owned Azure cloud hosting and deployments',
     ],
   },
   {
@@ -61,11 +59,10 @@ export const career: CareerEntry[] = [
     project: 'Denial Escalation Workflow',
     role: 'Sr. Software Developer I',
     years: '2020 — 2021',
-    stack: ['.NET Core 3.0', 'MVC', 'EF Core', 'SQL', 'JavaScript', 'jQuery', 'TFS'],
+    stack: ['.NET Core 3.0', 'ASP.NET MVC', 'EF Core', 'SQL Server', 'JavaScript', 'jQuery', 'TFS'],
     bullets: [
-      'Full-stack technical contributor',
-      'Designed and implemented a bulk data intake system',
-      'Collaborated closely with UI/UX designers on a challenging UI adaptation of an existing business process',
+      'Designed and implemented a bulk data intake system handling thousands of records at once, replacing a manual workflow',
+      'Partnered with UI/UX designers to translate a complex, long-standing manual business process into an intuitive web workflow',
     ],
   },
   {
@@ -73,11 +70,10 @@ export const career: CareerEntry[] = [
     project: 'Price Transparency Web App & API',
     role: 'Sr. Software Developer I',
     years: '2018 — 2020',
-    stack: ['.NET Core 2.0', 'REST API', 'MVC', 'EF Core', 'SQL', 'TFS'],
+    stack: ['.NET Core 2.0', 'REST API', 'ASP.NET MVC', 'EF Core', 'SQL Server', 'TFS'],
     bullets: [
-      'Full-stack technical contributor',
-      'Production deployment and support responsibilities',
-      'Delivered a high-profile solution of critical importance and time sensitivity to top business leadership',
+      'Built and delivered an executive-priority price transparency application and public REST API under a government-mandated deadline, frequently presented to top business leadership',
+      'Owned production deployment and post-launch support end to end',
     ],
   },
   {
@@ -85,19 +81,19 @@ export const career: CareerEntry[] = [
     project: 'Charge Master',
     role: 'Software Developer I',
     years: '2016 — 2018',
-    stack: ['.NET Framework', 'MVC', 'EF', 'SQL', 'JavaScript', 'jQuery'],
+    stack: ['.NET Framework', 'ASP.NET MVC', 'Entity Framework', 'SQL Server', 'JavaScript', 'jQuery'],
     bullets: [
-      'Front-end and back-end technical contributor',
-      'Designed and implemented a bulk data intake system',
+      'Full-stack contributor; implemented complex frontend and backend features',
+      'Designed a bulk data intake system that automated legacy processing of changes to medical procedures',
     ],
   },
   {
     client: 'Johnson & Johnson',
-    project: 'Health and Wellness Solutions',
+    project: 'Health & Wellness Solutions',
     role: 'Jr. Developer',
     years: '2015 — 2016',
-    stack: ['Java', 'Log4J', 'JavaScript', 'HTML', 'CSS'],
-    bullets: ['Implemented a security enhancement to a challenging legacy system'],
+    stack: ['Java', 'Log4j', 'JavaScript', 'HTML', 'CSS'],
+    bullets: ['Implemented security enhancements to a complex legacy Java system'],
   },
 ]
 
