@@ -22,7 +22,7 @@ export const career: CareerEntry[] = [
     years: '2023 — Present',
     stack: ['.NET 9', 'ASP.NET MVC', 'EF Core', 'SQL Server', 'Azure', 'GitHub', 'Terraform', 'GitHub Copilot'],
     bullets: [
-      'Lead and mentor a 12-engineer Agile team modernizing a dispute-resolution platform that processes billions of dollars in healthcare claims annually',
+      'Lead and mentor to a 12-engineer Agile team modernizing a dispute-resolution platform that processes billions of dollars in healthcare claims annually',
       'Directed the platform’s migration from on-prem hosting to Azure using Terraform IaC and automated CI/CD pipelines, delivering zero downtime to production end users',
       'Led a major refactoring and code-structure overhaul that increased unit test coverage by 20%',
       'Drove team-wide adoption of GitHub Copilot and AI-assisted code review, reducing average PR review times by 50%',

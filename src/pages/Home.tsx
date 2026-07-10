@@ -5,7 +5,7 @@ const highlights = [
   {
     label: 'Award',
     title: '“Platform of the Year”',
-    text: 'Technical Lead of the award-winning CDRA/ROSI platform — after leading the team’s Blazor adoption from zero experience to full productivity in three months.',
+    text: 'Technical Lead of the award-winning CDRA/ROSI platform, after leading the team’s Blazor adoption from zero experience to full productivity in three months.',
   },
   {
     label: 'Delivery',
@@ -15,7 +15,7 @@ const highlights = [
   {
     label: 'Leadership',
     title: 'Billions Modernized',
-    text: 'Lead a 12-engineer team on a platform processing billions annually — including a zero-downtime Azure migration and AI-assisted workflows that cut PR review times in half.',
+    text: 'Led a 12-engineer team on a platform processing billions annually, including a zero-downtime Azure migration and AI-assisted workflows that cut PR review times in half.',
   },
 ]
 
