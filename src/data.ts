@@ -11,7 +11,7 @@ export const careerIntro = {
   company: 'Launch, by NTT DATA',
   years: '2015 — Present',
   blurb:
-    'Launch, a division within NTT DATA, is a digital engineering consultancy delivering products for Fortune 500 clients. I have been embedded long-term with HCA Healthcare, one of the largest U.S. health systems, across six major platform engagements.',
+    'Digital engineering consultancy delivering products for Fortune 500 clients. Embedded long-term with HCA Healthcare, one of the largest U.S. health systems, across six major platform engagements.',
 }
 
 export const career: CareerEntry[] = [
@@ -19,14 +19,14 @@ export const career: CareerEntry[] = [
     client: 'HCA Healthcare',
     project: 'Dispute Resolution Workflow',
     role: 'Digital Engineering Supervisor',
-    years: '2023 — Present',
+    years: '2023 — 2026',
     stack: ['.NET 9', 'ASP.NET MVC', 'EF Core', 'SQL Server', 'Azure', 'GitHub', 'Terraform', 'GitHub Copilot'],
     bullets: [
       'Lead and mentor to a 12-engineer Agile team modernizing a dispute-resolution platform that processes billions of dollars in healthcare claims annually',
-      'Directed the platform’s migration from on-prem hosting to Azure using Terraform IaC and automated CI/CD pipelines, delivering zero downtime to production end users',
+      'Directed the platform’s migration from on-prem hosting to Azure using Terraform IaC and automated CI/CD pipelines with zero downtime to production end users',
       'Led a major refactoring and code-structure overhaul that increased unit test coverage by 20%',
-      'Drove team-wide adoption of GitHub Copilot and AI-assisted code review, reducing average PR review times by 50%',
-      'Remain hands-on: guided and implemented a batch-processing subsystem handling hundreds of thousands of data entries per day in .NET 9 and EF Core',
+      'Drove team-wide adoption of GitHub Copilot and AI-assisted code review, reducing average PR review times by 50% and establishing higher code quality standards',
+      'Remain hands-on: led and implemented a batch-processing subsystem handling hundreds of thousands of data entries per day in .NET 9 and EF Core while owning code quality and performance standards',
     ],
   },
   {
@@ -48,7 +48,7 @@ export const career: CareerEntry[] = [
     years: '2021 — 2023',
     stack: ['.NET 6', 'Blazor', 'EF Core', 'SQL Server', 'Azure', 'GitHub'],
     bullets: [
-      'Technical lead of the platform awarded “Platform of the Year” at Launch, by NTT DATA’s annual awards',
+      'Technical lead of the platform awarded “Platform of the Year” at Launch’s annual awards celebration',
       'Led the team’s adoption of Blazor from zero prior experience, ramping 6–8 engineers to full productivity in 3 months',
       'Architected the platform using domain-centric architecture and CQRS via MediatR, improving testability and separation of concerns',
       'Promoted from senior contributor to team lead mid-engagement; owned Azure cloud hosting and deployments',
@@ -84,7 +84,7 @@ export const career: CareerEntry[] = [
     stack: ['.NET Framework', 'ASP.NET MVC', 'Entity Framework', 'SQL Server', 'JavaScript', 'jQuery'],
     bullets: [
       'Full-stack contributor; implemented complex frontend and backend features',
-      'Designed a bulk data intake system that automated legacy processing of changes to medical procedures',
+      'Designed a bulk data intake system that automated a legacy process for updating medical procedures',
     ],
   },
   {
